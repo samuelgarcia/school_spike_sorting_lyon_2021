@@ -6,7 +6,20 @@ Here the the schedulde of day 3 for the data analysis school in Lyon, October 20
 https://www.gdr-neuralnet.cnrs.fr/fr/node/63
 
 
+## Instalation and download
 
+Package to be installed **before the school**:
+ * numpy/scipy/sklearn/matplotlib/
+ * spikeinterface[full]
+ * MEArec
+ * jupyter
+ * tridesclous
+ * spykingcircus
+ * herdingspikes
+ * montainsort
+
+Datasets to be downloaded **before the school**:
+ * "templates_Neuronexus-32_100.h5" for practice 3
 
 
 
@@ -45,7 +58,7 @@ Samuel Garcia
 Demo
 
 
-### Hands-on (3.5 hours)
+### Practice (3.5 hours)
 
 Prepare slides explaining the different “exercises”
 
