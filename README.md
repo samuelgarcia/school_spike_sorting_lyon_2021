@@ -13,11 +13,11 @@ https://www.gdr-neuralnet.cnrs.fr/fr/node/63
 9:30 - 12:45
 14:00 - 18:00
 
-## Morning 9:30 - 12:45
+## Morning 9:30 - 12:45
 
 
 
-### Overview on spike sorting
+### Overview on spike sorting
 
 Pierre Yger
 1h20min
@@ -36,7 +36,7 @@ Alessio Buccino
 Notebook
 
 
-## Afternoon 14:00 - 18:00
+## Afternoon 14:00 - 18:00
 
 ### Spikeinterface-gui (30 min)
 
@@ -55,7 +55,7 @@ Prepare slides explaining the different “exercises”
 Give neuronexus / cambridge design pdf + connectors + intan (channel locations as a csv file)
 Construct your own probe from locations + channel map with PI
 
-### Practice 2 : spikeinterface pipeline on  a real dataset
+### Practice 2 : spikeinterface pipeline on  a real dataset
 
 1 hour
 
@@ -70,7 +70,7 @@ Compare then
 Report
 GUI
 
-### Practice 3 : spike sorting benchmark
+### Practice 3 : spike sorting benchmark
 
 50 min
 
