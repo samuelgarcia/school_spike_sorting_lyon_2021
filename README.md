@@ -19,8 +19,8 @@ Package to be installed **before the school**:
  * montainsort
 
 Datasets to be downloaded **before the school**:
+ * "cambridge_data.dat" for practice 2
  * "templates_Neuronexus-32_100.h5" for practice 3
-
 
 
 9:30 - 12:45
