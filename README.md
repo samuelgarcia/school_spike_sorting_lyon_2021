@@ -1,14 +1,14 @@
-# Data analysis spike sorting - day3
+# Data analysis spike sorting - Day 3
 
 
 
-Here the the schedulde of day 3 for the data analysis school in Lyon, October 2021
+Here is the schedulde for day 3 for the data analysis school in Lyon, October 2021
 https://www.gdr-neuralnet.cnrs.fr/fr/node/63
 
 
 ## Instalation and download
 
-Package to be installed **before the school**:
+Packages to be installed **before the school** (included in the provided environment file):
  * numpy/scipy/sklearn/matplotlib/
  * spikeinterface[full]
  * MEArec
@@ -19,86 +19,59 @@ Package to be installed **before the school**:
  * montainsort
 
 Datasets to be downloaded **before the school**:
+ * "cambridge_data.dat" for practice 2
  * "templates_Neuronexus-32_100.h5" for practice 3
 
 
+# Schedule
 
-9:30 - 12:45
-14:00 - 18:00
+Morning: 9:30 - 12:45
+
+Afternoon: 14:00 - 18:00
 
 ## Morning 9:30 - 12:45
 
 
-
-### Overview on spike sorting
-
-Pierre Yger
-1h20min
+* Overview on spike sorting -- Pierre Yger (1h20min)
 
 
-### Overview on spikeinterface + probeinterface
+* Overview on spikeinterface + probeinterface -- Alessio Buccino (30min)
 
-
-30 min
-Presentation with slides
-
-### Demo - SpikeInterface (+ ProbeInterface) (1.20 h ?)
-
-Alessio Buccino
-1h20min
-Notebook
+* Demo - SpikeInterface (+ ProbeInterface) -- Alessio Buccino (1h20min)
 
 
 ## Afternoon 14:00 - 18:00
 
-### Spikeinterface-gui (30 min)
-
-Samuel Garcia
-30min
-Demo
+* Demo - Spikeinterface-gui -- Samuel Garcia (30 min)
 
 
 ### Practice (3.5 hours)
 
 Prepare slides explaining the different “exercises”
 
-#### Practice 1 : make your probe
+#### Practice 1 : make your own probe with ProbeInterface (30 min)
 
-30 min
-Give neuronexus / cambridge design pdf + connectors + intan (channel locations as a csv file)
-Construct your own probe from locations + channel map with PI
+The goal of this practice is to get familiar with ProbeInterface and to learn how to build a probe model from
+design documents and datasheets of probes and connectors.
 
-### Practice 2 : spikeinterface pipeline on  a real dataset
+### Practice 2 : SpikeInterface pipeline on a real dataset (1h)
 
-1 hour
+The goal of this practice session is to explore the SpikeInterface functionalities on a real datast.
+It will include:
+* reading data
+* loading probes
+* preprocessing
+* spike sorting
+* postprocessing
+* exploration of results
+* automatic curation
+* export functions
 
-Empty notebook with section titles (they can use docs + tutorials on their own) (+ full)
+### Practice 3 : spike sorting benchmark (50min)
 
-Dataset 1: cambridge neurotech (https://zenodo.org/record/4657314 - cambridge.bin)
-Read
-Plot
-Select group
-Run sorter
-Compare then
-Report
-GUI
+In this practice you will use simulated recording with ground-truth to benchmark the performance of different algorithms.
 
-### Practice 3 : spike sorting benchmark
+### Practice 4 : use SpikeInterface on your own data (50min)
 
-50 min
-
-Benchmark exercise: 
-
-Benchmark 2-3 sorters (agreement matrix + performance metrics)
-      (b)  Simulate VS SNR)
-
-Dataset 2 : MEArec
-They run several simulation with different characteristics (the script is given)
-Run 1 or more sorters
-Analyse and benchmark sorter himself
-
-### Practice 4 : set up your own data into spikeinterface
-50 min
-
-Dataset 3 : there own datasets (+backup for people that don’t have)
+In this last part, you can try to apply what you learnt on your on data!
 
