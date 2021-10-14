@@ -25,9 +25,8 @@ Datasets to be downloaded **before the school**:
 
 # Schedule
 
-Morning: 9:30 - 12:45
-
-Afternoon: 14:00 - 18:00
+### Morning: 9:30 - 12:45
+### Afternoon: 14:00 - 18:00
 
 ## Morning 9:30 - 12:45
 
